@@ -3,7 +3,8 @@ class Person {
 	constructor(name,age){
 		this.name= name,
 		this.age = age,
-
+			}
+	
 		get name(){
 			return this.name;
 		}
@@ -12,7 +13,7 @@ class Person {
 			this.age =age;
 			return age;
 		}
-	}
+	
 }
  
 class Student extends Person {
